@@ -1,0 +1,3 @@
+server:
+  contextPath: /te
+  port: 44444
