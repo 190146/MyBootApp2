@@ -6,13 +6,14 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import jp.te4a.spring.boot.myapp2.TaroController;
 /**
  * Taro!
  *
  */
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan
+@ComponentScan(basePackageClasses = TaroController.class)
 public class App 
 {
     public static void main( String[] args )
